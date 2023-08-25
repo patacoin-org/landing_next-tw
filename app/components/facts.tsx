@@ -35,9 +35,9 @@ function Facts() {
                 transition={{ duration: 1, delay: 0.3 }}
                 whileInView={"visible"}
                 className="flex mt-5 w-full gap-5 flex-row justify-center items-center px-[10%]">
-                <div className="w-full h-[1px] bg-purp"></div>
-                <div className="text-md flex-none text-center text-purp">PAN is available worldwide</div>
-                <div className="w-full h-[1px] bg-purp"></div>
+                <div className="w-full h-[1px] bg-orange"></div>
+                <div className="text-md flex-none text-center text-orange">PAN is available worldwide</div>
+                <div className="w-full h-[1px] bg-orange"></div>
             </motion.div>
 
             <motion.div

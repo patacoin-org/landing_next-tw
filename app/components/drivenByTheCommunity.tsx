@@ -12,9 +12,9 @@ interface CommunityCardProps {
 
 function CommunityCard(props: CommunityCardProps) {
     return (
-        <div className="text-black w-full h-full p-10 rounded-2xl bg-blue/[0.05]">
+        <div className="text-black w-full h-full p-10 rounded-2xl bg-soft-orange/[0.05]">
             <div className="flex flex-row justify-start gap-5 items-center">
-                <div style={{ backgroundImage: `url('${peter2.src}')` }} className="bg-cover bg-center flex-none h-12 w-12 rounded-full bg-blue"></div>
+                <div style={{ backgroundImage: `url('${peter2.src}')` }} className="bg-cover bg-center flex-none h-12 w-12 rounded-full bg-soft-orange"></div>
                 <div className="text-3xl font-medium">{props.title}</div>
             </div>
             <div className="flex text-md flex-col mt-5 gap-3 justify-start items-start">

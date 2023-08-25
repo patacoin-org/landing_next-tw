@@ -3,7 +3,7 @@ function Footer() {
         <div className="flex relative z-10 h-full md:h-96 w-full bg-black text-tan">
             <div className="flex flex-col gap-10 md:flex-row justify-between w-full items-start p-24">
 
-                <div className="bg-purp text-tan text-4xl font-regular px-4 py-1 rounded-md">
+                <div className="bg-orange text-tan text-4xl font-regular px-4 py-1 rounded-md">
                     PAN
                 </div>
 
