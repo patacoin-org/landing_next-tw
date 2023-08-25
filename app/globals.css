@@ -3,6 +3,6 @@
 @tailwind utilities;
 
 #background-pataconio {
-    background-image: url('./images/patacon-background.webp');
+    background-image: url('./images/patacones-background.webp');
     background-size: cover;
 }
