@@ -35,9 +35,9 @@ function Facts() {
                 transition={{ duration: 1, delay: 0.3 }}
                 whileInView={"visible"}
                 className="flex mt-5 w-full gap-5 flex-row justify-center items-center px-[10%]">
-                <div className="w-full h-[1px] bg-purp"></div>
-                <div className="text-md flex-none text-center text-purp">PAN is available worldwide</div>
-                <div className="w-full h-[1px] bg-purp"></div>
+                <div className="w-full h-[1px] bg-orange"></div>
+                <div className="text-md flex-none text-center text-orange">PAN is available worldwide</div>
+                <div className="w-full h-[1px] bg-orange"></div>
             </motion.div>
 
             <motion.div
@@ -48,7 +48,7 @@ function Facts() {
                 }}
                 transition={{ duration: 1, delay: 0.5 }}
                 whileInView={"visible"}
-                className="font-bold text-6xl md:text-8xl text-center text-black mt-24 md:mt-36">PAN is for <span className="text-purp italic">you</span></motion.div>
+                className="font-bold text-6xl md:text-8xl text-center text-black mt-24 md:mt-36">PAN is for <span className="text-orange italic">you</span></motion.div>
             <motion.div
                 initial="hidden"
                 variants={{

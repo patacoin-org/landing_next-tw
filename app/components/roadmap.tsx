@@ -21,7 +21,7 @@ function RoadmapCard(props: RoadmapCardProps) {
             transition={{ duration: 0.5, delay: (props.index+1)*0.2 }}
             whileInView={"visible"}
         >
-            <div className="flex flex-ro justify-start rounded-xl items-center gap-5 px-5 py-3 border-2 hover:bg-purp transition-all hover:scale-105 duration-200 text-tan hover:border-purp border-tan">
+            <div className="flex flex-ro justify-start rounded-xl items-center gap-5 px-5 py-3 border-2 hover:bg-orange transition-all hover:scale-105 duration-200 text-tan hover:border-orange border-tan">
                 {props.icon}
                 <div className="text-xl">{props.title}</div>
             </div>
@@ -34,7 +34,7 @@ function RoadmapCard(props: RoadmapCardProps) {
 
 function Roadmap() {
     return (
-        <div className="h-full w-full bg-blue relative z-10 flex justify-start items-center flex-col p-10">
+        <div className="h-full w-full bg-soft-orange relative z-10 flex justify-start items-center flex-col p-10">
             <div className="text-tan font-medium text-xl mt-10">ROADMAP</div>
             <div id="roadmap" className="text-tan font-bold text-5xl md:text-6xl mt-10 text-center">Where we're going,<br />We don't need roads.</div>
             <div className="flex flex-wrap justify-center items-center mt-16 gap-5 md:gap-10">

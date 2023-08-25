@@ -6,7 +6,7 @@ import pan from "../images/peter.png";
 
 function Hero() {
     return (
-        <div className="fixed z-0 h-screen w-full flex flex-col justify-end items-end overflow-y-hidden">
+        <div id='start' className="fixed z-0 h-screen w-full flex flex-col justify-end items-end overflow-y-hidden">
             <motion.div 
             initial={{ opacity: 0 }}
             animate={{ opacity: 0.9 }}
@@ -19,7 +19,7 @@ function Hero() {
                     animate={{ y: 0, opacity: 1 }}
                     transition={{ duration: 1, delay: 0.5 }}
                     className="relative z-10 tracking-tighter text-4xl md:text-7xl font-bold">
-                    Fly to New heights with <span className="underline text-purp">PAN</span><br />
+                    Fly to New heights with <span className="underline text-orange">PAN</span><br />
                 </motion.div>
                 <motion.div 
                 initial={{ y: 70, opacity: 0 }}

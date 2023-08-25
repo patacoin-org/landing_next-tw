@@ -22,7 +22,7 @@ function FeatureCard(props: FeatureCardProps) {
         }}
         transition={{duration:1}}
         whileInView={"visible"}
-        className="w-full md:w-64 h-full md:h-64 border-blue rounded-md text-blue p-5">
+        className="w-full md:w-64 h-full md:h-64 border-soft-orange rounded-md text-soft-orange p-5">
             {props.icon}
             <div className="text-3xl mt-5 font-regular">{props.title}</div>
             <div className="text-md mt-4 font-regular">{props.description}</div>
@@ -35,9 +35,9 @@ function FeatureCard(props: FeatureCardProps) {
 function Features() {
     return (
         <>
-            <div className="h-screen w-full"></div>
+            <div id="start" className="h-screen w-full"></div>
 
-            <div className="bg-tan relative border-t-8 border-purp z-10 h-full md:h-[800px] w-full flex flex-col-reverse  gap-24 md:flex-row justify-center items-center">
+            <div className="bg-tan relative border-t-8 border-orange z-10 h-full md:h-[800px] w-full flex flex-col-reverse  gap-24 md:flex-row justify-center items-center">
                 <motion.div
                     initial={{ y: -100, opacity: 0 }}
                     animate={{ x: 0, opacity: 1 }}
@@ -62,7 +62,7 @@ function Features() {
                         }}
                         transition={{duration:1,delay:0.3}}
                         whileInView={"visible"}
-                        className="h-full md:h-3/4 w-full md:w-3/4 rounded-3xl text-center bg-blue/90 backdrop-blur-xl flex flex-col gap-2 justify-center items-center p-10">
+                        className="h-full md:h-3/4 w-full md:w-3/4 rounded-3xl text-center bg-soft-orange/90 backdrop-blur-xl flex flex-col gap-2 justify-center items-center p-10">
                             <div className="text-xl font-medium">Built on Ethereum</div>
                             <div className="text-4xl font-medium">Buy $PAN</div>
                             <div className="text-xl font-medium mt-4">PAN is supported on popular<br />DeFi wallets like MetaMask</div>

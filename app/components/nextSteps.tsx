@@ -32,7 +32,7 @@ function NextSteps() {
     return (
         <div className="h-full md:h-screen w-full flex flex-col md:flex-row relative z-10 justify-center items-center">
 
-            <div style={{ backgroundImage: `url('${peter2.src}')` }} className="bg-cover bg-center w-full md:w-2/4 h-96 md:h-full flex bg-blue"></div>
+            <div style={{ backgroundImage: `url('${peter2.src}')` }} className="bg-cover bg-center w-full md:w-2/4 h-96 md:h-full flex bg-soft-orange"></div>
 
             <div className="w-full md:w-2/4 h-full bg-tan flex flex-col justify-center items-start p-10">
                 <div className="text-md md:text-xl font-medium">Next Steps</div>
