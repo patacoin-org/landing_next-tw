@@ -16,11 +16,11 @@ function ReadyToBuy() {
                 whileInView={"visible"}
                 className="flex flex-col md:border-r-2 border-black/60 justify-center items-center h-full w-full p-5 md:p-10">
                 <div className="relative z-10 tracking-tighter text-4xl md:text-7xl text-left font-bold">
-                    Ready to buy PAN?
+                    Ready to buy Patacoin?
                 </div>
             </motion.div>
 
-            <motion.div 
+            <motion.div
             initial="hidden"
             variants={{
                 "visible": { opacity: 1, y: 0 },

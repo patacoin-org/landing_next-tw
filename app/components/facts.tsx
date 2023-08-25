@@ -36,7 +36,7 @@ function Facts() {
                 whileInView={"visible"}
                 className="flex mt-5 w-full gap-5 flex-row justify-center items-center px-[10%]">
                 <div className="w-full h-[1px] bg-orange"></div>
-                <div className="text-md flex-none text-center text-orange">PAN is available worldwide</div>
+                <div className="text-md flex-none text-center text-orange">Patacoin esta disponible para todo el mundo</div>
                 <div className="w-full h-[1px] bg-orange"></div>
             </motion.div>
 
@@ -48,7 +48,7 @@ function Facts() {
                 }}
                 transition={{ duration: 1, delay: 0.5 }}
                 whileInView={"visible"}
-                className="font-bold text-6xl md:text-8xl text-center text-black mt-24 md:mt-36">Pata-<span className="text-purp italic">nomics</span></motion.div>
+                className="font-bold text-6xl md:text-8xl text-center text-black mt-24 md:mt-36">Pata-<span className="text-orange italic">nomics</span></motion.div>
             <motion.div
                 initial="hidden"
                 variants={{
@@ -75,7 +75,7 @@ function Facts() {
                     <div className="text-xl md:text-3xl font-regular text-right mt-5">
                         <div className="flex flex-row justify-end items-center gap-1">
                             <AnimatedNumbers
-                                animateToNumber={1}
+                                animateToNumber={100}
                                 fontStyle={{ fontSize: 30, fontWeight: "bold" }}
                                 configs={(number, index) => {
                                     return { mass: 1, tension: 230, friction: 140 };

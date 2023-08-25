@@ -14,7 +14,7 @@ interface FeatureCardProps {
 
 function FeatureCard(props: FeatureCardProps) {
     return (
-        <motion.div 
+        <motion.div
         initial="hidden"
         variants={{
             "visible":{opacity:1, y:0},
@@ -44,17 +44,17 @@ function Features() {
                     transition={{ duration: 2, delay: 0.5 }}
                     className="w-full md:w-3/5 h-full md:h-2/4 flex flex-wrap gap-10 justify-center items-center p-10">
 
-                    <FeatureCard icon={<MdDesignServices size={50} />} title="Design" description="Launched stealth with no presale, zero taxes, LP burnt and contract renounced, $PAN is for the people -forever." />
+                    <FeatureCard icon={<MdDesignServices size={50} />} title="Design" description="Launched stealth with no presale, zero taxes, LP burnt and contract renounced, $Patacoin is for the people -forever." />
                     <FeatureCard icon={<MdLightbulb size={50} />} title="Idea" description="It’s time for the most recognizable pan in the world to claim his rightful position on the charts at the start of a life changing bull market." />
-                    <FeatureCard icon={<MdPeople size={50} />} title="Community" description="$PAN is a decentralized community movement. Anyone with skills or time can contribute as part of a group or on their own to help advance $PAN." />
-                    <FeatureCard icon={<MdSearch size={50} />} title="Transparency" description="95% of PAN’s total supply is locked in Uniswap and keys are burnt! 5% is allocated for centralized exchange listings." />
+                    <FeatureCard icon={<MdPeople size={50} />} title="Community" description="$Patacoin is a decentralized community movement. Anyone with skills or time can contribute as part of a group or on their own to help advance $Patacoin." />
+                    <FeatureCard icon={<MdSearch size={50} />} title="Transparency" description="95% of Patacoin’s total supply is locked in Uniswap and keys are burnt! 5% is allocated for centralized exchange listings." />
 
                 </motion.div>
 
 
                 <div style={{ backgroundImage: `url('${peter2.src}')` }} className="h-full md:h-[792px] w-full md:w-2/5 text-tan flex bg-cover bg-center justify-center items-center">
                     <div className="w-full h-full flex justify-center items-center py-10 px-5">
-                        <motion.div 
+                        <motion.div
                         initial="hidden"
                         variants={{
                             "visible":{opacity:1, y:0},
@@ -64,8 +64,8 @@ function Features() {
                         whileInView={"visible"}
                         className="h-full md:h-3/4 w-full md:w-3/4 rounded-3xl text-center bg-soft-orange/90 backdrop-blur-xl flex flex-col gap-2 justify-center items-center p-10">
                             <div className="text-xl font-medium">Built on Ethereum</div>
-                            <div className="text-4xl font-medium">Buy $PAN</div>
-                            <div className="text-xl font-medium mt-4">PAN is supported on popular<br />DeFi wallets like MetaMask</div>
+                            <div className="text-4xl font-medium">Buy $Patacoin</div>
+                            <div className="text-xl font-medium mt-4">Patacoin is supported on popular<br />DeFi wallets like MetaMask</div>
                             <div className="h-24 w-24 bg-tan rounded-full mt-5 mb-10"></div>
                             <ButtonWhite text="Buy on Uniswap" onClick={() => { }} />
 
