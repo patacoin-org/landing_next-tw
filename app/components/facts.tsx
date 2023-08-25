@@ -48,7 +48,7 @@ function Facts() {
                 }}
                 transition={{ duration: 1, delay: 0.5 }}
                 whileInView={"visible"}
-                className="font-bold text-6xl md:text-8xl text-center text-black mt-24 md:mt-36">PAN is for <span className="text-orange italic">you</span></motion.div>
+                className="font-bold text-6xl md:text-8xl text-center text-black mt-24 md:mt-36">Pata-<span className="text-purp italic">nomics</span></motion.div>
             <motion.div
                 initial="hidden"
                 variants={{
@@ -57,7 +57,7 @@ function Facts() {
                 }}
                 transition={{ duration: 1, delay: 0.7 }}
                 whileInView={"visible"}
-                className="text-md px-10 md:text-xl font-medium text-black mt-10 mb-24 text-center">No taxes, no nonsense. Simple tokenomics to make PAN sustainable long term.</motion.div>
+                className="text-md px-10 md:text-xl font-medium text-black mt-10 mb-24 text-center">Más que Monedas: Entiende cómo los 'Crujientes y Sabrosos' de Suministro Elevan el Valor de Patacoin.</motion.div>
 
             <motion.div
                 initial="hidden"
@@ -75,28 +75,28 @@ function Facts() {
                     <div className="text-xl md:text-3xl font-regular text-right mt-5">
                         <div className="flex flex-row justify-end items-center gap-1">
                             <AnimatedNumbers
-                                animateToNumber={420}
+                                animateToNumber={1}
                                 fontStyle={{ fontSize: 30, fontWeight: "bold" }}
                                 configs={(number, index) => {
                                     return { mass: 1, tension: 230, friction: 140 };
                                 }} />
-                            <div className="font-bold text-[30px]">Million</div>
+                            <div className="font-bold text-[30px]">Millón</div>
                         </div>
-                        <div className="font-regular text-md md:text-2xl">Total Supply</div>
+                        <div className="font-regular text-md md:text-2xl">Suministro total</div>
                         <div className="w-full h-[2px] bg-black/40 my-5"></div>
                     </div>
 
                     <div className="text-xl md:text-3xl text-right mt-5">
                         <div className="flex flex-row justify-end items-center">
                             <AnimatedNumbers
-                                animateToNumber={95}
+                                animateToNumber={80}
                                 fontStyle={{ fontSize: 30, fontWeight: "bold" }}
                                 configs={(number, index) => {
                                     return { mass: 1, tension: 230, friction: 140 };
                                 }} />
                             <div className="font-bold">%</div>
                         </div>
-                        <div className="font-regular text-md md:text-2xl">Locked Forever</div>
+                        <div className="font-regular text-md md:text-2xl">Abierto para la comunidad</div>
                         <div className="w-full h-[2px] bg-black/40 my-5"></div>
                     </div>
 
@@ -110,7 +110,7 @@ function Facts() {
                                 }} />
                             <div className="font-bold">%</div>
                         </div>
-                        <div className="font-regular text-md md:text-2xl">Community Driven</div>
+                        <div className="font-regular text-md md:text-2xl">Manejo comunitario</div>
                         <div className="w-full h-[2px] bg-black/40 my-5"></div>
                     </div>
 

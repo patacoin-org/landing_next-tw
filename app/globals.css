@@ -2,3 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+#background-pataconio {
+    background-image: url('./images/patacon-background.webp');
+    background-size: cover;
+}
