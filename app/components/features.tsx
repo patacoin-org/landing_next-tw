@@ -35,9 +35,9 @@ function FeatureCard(props: FeatureCardProps) {
 function Features() {
     return (
         <>
-            <div id="start" className="h-screen w-full"></div>
+            <div className="h-screen w-full"></div>
 
-            <div className="bg-tan relative border-t-8 border-orange z-10 h-full md:h-[800px] w-full flex flex-col-reverse  gap-24 md:flex-row justify-center items-center">
+            <div id="start" className="bg-tan relative border-t-8 border-orange z-10 h-full md:h-[800px] w-full flex flex-col-reverse  gap-24 md:flex-row justify-center items-center">
                 <motion.div
                     initial={{ y: -100, opacity: 0 }}
                     animate={{ x: 0, opacity: 1 }}

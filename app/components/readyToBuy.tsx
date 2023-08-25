@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 function ReadyToBuy() {
     return (
-        <div id="readytobuy" className="bg-tan relative z-10 h-full w-full flex flex-col md:flex-row justify-center items-center pb-12 md:pb-36">
+        <div id="roadmap" className="bg-tan relative z-10 h-full w-full flex flex-col md:flex-row justify-center items-center pb-12 md:pb-36">
 
             <motion.div
                 initial="hidden"

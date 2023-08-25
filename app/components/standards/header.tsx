@@ -132,7 +132,7 @@ function Header() {
                     }} className="hover:text-orange hover:underline text-md transition-all duration-300">Tokenomics</button>
 
                     <button onClick={() => {
-                        const element = document.getElementById("dao");
+                        const element = document.getElementById("roadmap");
                         element!.scrollIntoView({ behavior: "smooth", block: "center", inline: "nearest" });
                     }} className="hover:text-orange hover:underline text-md transition-all duration-300">Roadmap</button>
 
