@@ -9,7 +9,7 @@ import { useEffect, useState } from "react";
 import { Menu, Transition } from "@headlessui/react";
 import { Fragment } from "react";
 import Image from "next/image";
-import PataCoinImg from '@assets/patacoin-img.png';
+import PataCoinImg from '@assets/patacoin-img.webp';
 function Header() {
 
     const [mobile, setmobile] = useState(false);
@@ -44,7 +44,7 @@ function Header() {
                                 <button onClick={() => { setheaderOpen(!headerOpen) }}>
                                     <MdClose size={30} />
                                 </button>
-                                <button 
+                                <button
                                 onClick={() => {
                                     const element = document.getElementById("start");
                                     element!.scrollIntoView({ behavior: "smooth", block: "center", inline: "nearest" });
@@ -89,7 +89,7 @@ function Header() {
                             <Image
                                 src={PataCoinImg}
                                 width={45}
-                                alt="Pata coin"
+                                alt="Patacoin"
                             />
 
                             <button onClick={() => { setheaderOpen(!headerOpen) }}>
@@ -111,9 +111,9 @@ function Header() {
                     <Image
                         src={PataCoinImg}
                         width={45}
-                        alt="Pata coin"
+                        alt="Patacoin"
                     />
-                    <div className="text-black text-4xl font-regular px-4 py-1 rounded-md">Pata coin</div>
+                    <div className="text-black text-4xl font-regular px-4 py-1 rounded-md">Patacoin</div>
                 </div>
 
                 <div className="hidden md:flex flex-row justify-center items-center gap-12">
