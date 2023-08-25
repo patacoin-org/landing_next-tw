@@ -9,7 +9,7 @@ import { useEffect, useState } from "react";
 import { Menu, Transition } from "@headlessui/react";
 import { Fragment } from "react";
 import Image from "next/image";
-import PataCoinImg from '@assets/patacoin-img.png';
+import PataCoinImg from '@assets/patacoin-img.webp';
 function Header() {
 
     const [mobile, setmobile] = useState(false);
