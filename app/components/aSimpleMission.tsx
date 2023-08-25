@@ -10,7 +10,7 @@ function ASimpleMission() {
 
             <div className="w-full md:w-2/4  h-full bg-tan flex flex-col justify-center items-start p-10">
                 <div className="text-md md:text-xl font-medium">A simple mission</div>
-                <motion.div 
+                <motion.div
                 initial="hidden"
                 variants={{
                     "visible": { opacity: 1, y: 0 },
@@ -18,8 +18,8 @@ function ASimpleMission() {
                 }}
                 transition={{ duration: 1, delay: 0.3 }}
                 whileInView={"visible"}
-                className="text-5xl md:text-6xl font-bold mt-3">Make PAN the most widely held meme coin.</motion.div>
-                <motion.div 
+                className="text-5xl md:text-6xl font-bold mt-3">Make Patacoin the most widely held meme coin.</motion.div>
+                <motion.div
                 initial="hidden"
                 variants={{
                     "visible": { opacity: 1, y: 0 },
