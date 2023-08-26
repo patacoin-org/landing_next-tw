@@ -35,7 +35,7 @@ function NextSteps() {
             <div style={{ backgroundImage: `url('${peter2.src}')` }} className="bg-cover bg-center w-full md:w-2/4 h-96 md:h-full flex bg-soft-orange"></div>
 
             <div className="w-full md:w-2/4 h-full bg-tan flex flex-col justify-center items-start p-10">
-                <div className="text-md md:text-xl font-medium">Next Steps</div>
+                <div className="text-md md:text-xl font-medium">Próximos pasos</div>
                 <motion.div
                     initial="hidden"
                     variants={{
@@ -44,13 +44,15 @@ function NextSteps() {
                     }}
                     transition={{ duration: 1, delay: 0.3 }}
                     whileInView={"visible"}
-                    className="text-5xl md:text-6xl font-bold mt-2">Buying Pan</motion.div>
-
+                    className="text-5xl md:text-6xl font-bold mt-2"
+                >
+                    Comprar patacoins
+                </motion.div>
                 <div className="flex flex-col justify-start items-start mt-6 md:mt-10 pr-5 md:pr-10 gap-3 md:gap-5">
-                    <Step index={0} step="Make sure your wallet has ETH. Buy ETH directly on Metamask or transfer it from another wallet or exchange." />
-                    <Step index={1} step="Make sure your wallet has ETH. Buy ETH directly on Metamask or transfer it from another wallet or exchange." />
-                    <Step index={2} step="Make sure your wallet has ETH. Buy ETH directly on Metamask or transfer it from another wallet or exchange." />
-                    <Step index={3} step="Make sure your wallet has ETH. Buy ETH directly on Metamask or transfer it from another wallet or exchange." />
+                    <Step index={0} step="Asegúrese de que su billetera tenga ETH. Compre ETH directamente en Metamask o transfiéralo desde otra billetera o intercambio." />
+                    <Step index={1} step="Asegúrese de que su billetera tenga ETH. Compre ETH directamente en Metamask o transfiéralo desde otra billetera o intercambio." />
+                    <Step index={2} step="Asegúrese de que su billetera tenga ETH. Compre ETH directamente en Metamask o transfiéralo desde otra billetera o intercambio." />
+                    <Step index={3} step="Asegúrese de que su billetera tenga ETH. Compre ETH directamente en Metamask o transfiéralo desde otra billetera o intercambio." />
                 </div>
 
             </div>
