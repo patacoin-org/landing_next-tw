@@ -3,6 +3,7 @@
 import { motion } from "framer-motion";
 import PataCoinImg from "@assets/patacoin-img.webp";
 import Image from "next/image";
+import { ButtonWhite } from "./standards/button";
 
 function Hero() {
   return (
@@ -34,12 +35,7 @@ function Hero() {
             <p className="text-4xl text-center font-medium pb-10">
               La cryptocurrency de latam
             </p>
-            <button
-              type="button"
-              className="py-2.5 px-5 mr-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"
-            >
-              Empieza ya!
-            </button>
+              <ButtonWhite text="¡Empieza ya!" onClick={() => {}} />
           </div>
         </motion.div>
       </div>
