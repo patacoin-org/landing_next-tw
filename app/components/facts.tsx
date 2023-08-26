@@ -1,6 +1,7 @@
 "use client";
 
 import peter2 from "../images/peter2.png";
+import patacon1 from '@assets/patacon.jpeg'
 import { motion } from "framer-motion";
 import dynamic from "next/dynamic";
 const AnimatedNumbers = dynamic(() => import("react-animated-numbers"), {
@@ -68,7 +69,7 @@ function Facts() {
       >
         <div
           id="panisforyou"
-          style={{ backgroundImage: `url('${peter2.src}')` }}
+          style={{ backgroundImage: `url('${patacon1.src}')` }}
           className="bg-cover bg-center flex-none flex-col justify-center items-center h-96 w-full md:h-[500px] md:w-[500px]"
         ></div>
         <div className="flex flex-col h-full md:h-[500px] justify-center w-full items-end p-5">
