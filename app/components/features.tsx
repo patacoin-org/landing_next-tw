@@ -1,7 +1,7 @@
 "use client";
 
 import { ReactElement } from "react";
-import peter2 from "../images/peter2.png";
+import patacon2 from "../images/24.jpg.webp";
 import patacon1 from '@assets/patacon.jpeg'
 import {
   MdDesignServices,
@@ -12,7 +12,7 @@ import {
 import { ButtonWhite } from "./standards/button";
 import { motion } from "framer-motion";
 import Image from "next/image";
-import PataCoinImg from "@assets/patacoin-img.webp";
+import PataCoinImg from "@assets/logo.png";
 
 interface FeatureCardProps {
   title: string;
@@ -79,7 +79,7 @@ function Features() {
         </motion.div>
 
         <div
-          style={{ backgroundImage: `url('${patacon1.src}')` }}
+          style={{ backgroundImage: `url('${patacon2.src}')` }}
           className="h-full md:h-[792px] w-full md:w-2/5 text-tan flex bg-cover bg-center justify-center items-center"
         >
           <div className="w-full h-full flex justify-center items-center py-10 px-5">
@@ -94,12 +94,13 @@ function Features() {
               className="h-full md:h-3/4 w-full md:w-3/4 rounded-3xl text-center bg-soft-orange/90 backdrop-blur-xl flex flex-col gap-2 justify-center items-center p-10"
             >
               <div className="text-xl font-medium">Construido con Ethereum</div>
-              <div className="text-4xl font-medium">Compra $Patacoin</div>
+              <div className="text-4xl font-medium">Compra $PataCoin</div>
               <div className="text-xl font-medium mt-4">
-                Patacoin es soportado en las mas populares
+                PataCoin es soportado en las mas populares
                 <br />
                 DeFi wallets como MetaMask
               </div>
+
               <div className="h-24 w-24 flex justify-center items-center bg-tan rounded-full mt-5 mb-10">
                 <Image
                   src={PataCoinImg}
@@ -112,7 +113,11 @@ function Features() {
                 text="Comprar en Uniswap (PTC)"
                 onClick={() => openInNewTab()}
               />
+              <br></br>    
+              <b><h1 style={{ fontSize: 15 }}>Start Contract</h1></b>
+              <h1 style={{ fontSize: 13 }}>0xefd4e828e8ea886b3d21c09e549690ed66e30b35</h1>                     
             </motion.div>
+            
           </div>
         </div>
       </div>

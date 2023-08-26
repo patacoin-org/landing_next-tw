@@ -1,6 +1,6 @@
 "use client";
 
-import peter2 from "../images/peter2.png";
+import patacon2 from "../images/20.jpg.webp";
 import patacon1 from '@assets/patacon.jpeg'
 import { motion } from "framer-motion";
 import dynamic from "next/dynamic";
@@ -26,7 +26,7 @@ function Facts() {
       >
         <div className="w-full h-[1px] bg-orange"></div>
         <div className="text-md flex-none text-center text-orange">
-          Patacoin esta disponible para todo el mundo
+          Disponible en los principales DEX de cadena ETH
         </div>
         <div className="w-full h-[1px] bg-orange"></div>
       </motion.div>
@@ -53,8 +53,8 @@ function Facts() {
         whileInView={"visible"}
         className="text-md px-10 md:text-xl font-medium text-black mt-10 mb-24 text-center"
       >
-        Más que Monedas: Entiende cómo los 'Crujientes y Sabrosos' de Suministro
-        Elevan el Valor de Patacoin.
+        <b>Más que Monedas:</b> Nuestros 'Crujientes y Sabrosos' Tokens
+        Llegaron para revolucionar Latinoámerica
       </motion.div>
 
       <motion.div
@@ -69,7 +69,7 @@ function Facts() {
       >
         <div
           id="panisforyou"
-          style={{ backgroundImage: `url('${patacon1.src}')` }}
+          style={{ backgroundImage: `url('${patacon2.src}')` }}
           className="bg-cover bg-center flex-none flex-col justify-center items-center h-96 w-full md:h-[500px] md:w-[500px]"
         ></div>
         <div className="flex flex-col h-full md:h-[500px] justify-center w-full items-end p-5">

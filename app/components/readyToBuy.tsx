@@ -32,6 +32,8 @@ function ReadyToBuy() {
                 <div className="text-black text-xl md:text-2xl font-regular text-center md:text-left">
                     Descarga una billetera Ethereum como MetaMask. Es gratis en la tienda de aplicaciones o en Google Play. Los usuarios de escritorio pueden descargar la extensión de Chrome MetaMask.
                 </div>
+                <br></br>
+                <b>Smart Contract:</b> 0xefd4e828e8ea886b3d21c09e549690ed66e30b35
             </motion.div>
 
         </div>

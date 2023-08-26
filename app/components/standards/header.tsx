@@ -4,7 +4,7 @@ import { MdClose } from "react-icons/md"
 import { GiHamburgerMenu } from "react-icons/gi";
 import { useEffect, useState } from "react";
 import Image from "next/image";
-import PataCoinImg from '@assets/patacoin-img.webp';
+import PataCoinImg from '@assets/logo.png';
 
 const MobileSection = () => {
     const [headerOpen, setheaderOpen] = useState(false);
@@ -42,7 +42,7 @@ const MobileSection = () => {
                                 }}
                                 className="hover:text-orange hover:underline text-md transition-all duration-300"
                             >
-                                Como comprar
+                                ¿Cómo comprar?
                             </button>
                             <button
                                 onClick={()=>{
@@ -52,11 +52,11 @@ const MobileSection = () => {
                                 }}
                                 className="hover:text-orange hover:underline text-md transition-all duration-300 flex flex-row justify-center items-center gap-1"
                             >
-                                Pokenomics
+                                Pata-nomiks
                             </button>
                             <button
                                 onClick={()=>{
-                                    const element = document.getElementById("roadmap");
+                                    const element = document.getElementById("Roadmap");
                                     element!.scrollIntoView({ behavior: "smooth", block: "center", inline: "nearest" });
                                     setheaderOpen(false);
                                 }}
@@ -102,7 +102,7 @@ const DesktopSection = () => {
             <div className="flex justify-center">
                 <Image
                     src={PataCoinImg}
-                    width={45}
+                    width={80}
                     alt="Patacoin"
                 />
                 {/* <div className="text-black text-4xl font-regular px-4 py-1 rounded-md">Paracoin</div> */}
@@ -122,7 +122,7 @@ const DesktopSection = () => {
                         element!.scrollIntoView({ behavior: "smooth", block: "center", inline: "nearest" });
                     }} className="hover:text-orange hover:underline text-md transition-all duration-300"
                 >
-                    Como comprar
+                    ¿Cómo comprar?
                 </button>
                 <button
                     onClick={() => {
@@ -130,7 +130,7 @@ const DesktopSection = () => {
                         element!.scrollIntoView({ behavior: "smooth", block: "center", inline: "nearest" });
                     }} className="hover:text-orange hover:underline text-md transition-all duration-300"
                 >
-                    Pokenomics
+                    Pata-Nomics
                 </button>
                 <button
                     onClick={() => {

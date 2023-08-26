@@ -40,15 +40,15 @@ function Hero() {
           />
           <div className="flex justify-center flex-col">
             <p className="text-4xl text-center font-medium pb-10">
-              La cryptocurrency de latam
+              ¡El Crujiente Token que llegó para revolucionar Latinoamérica!
             </p>
             <button
                 onClick={() => {
                     const element = document.getElementById("how-buy");
                     element!.scrollIntoView({ behavior: "smooth", block: "center", inline: "nearest" });
-                }} className="py-2.5 px-5 mr-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"
+                }} className="py-2.5 px-5 mr-2 mb-2 text-sm font-medium text-orange-900 bg-white rounded-lg border border-orange-200 hover:bg-white-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"
             >
-                Empieza ya!
+                ¡Empieza ya!
             </button>
           </div>
         </motion.div>
