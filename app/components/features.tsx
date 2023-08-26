@@ -2,6 +2,7 @@
 
 import { ReactElement } from "react";
 import peter2 from "../images/peter2.png";
+import patacon1 from '@assets/patacon.jpeg'
 import {
   MdDesignServices,
   MdLightbulb,
@@ -78,7 +79,7 @@ function Features() {
         </motion.div>
 
         <div
-          style={{ backgroundImage: `url('${peter2.src}')` }}
+          style={{ backgroundImage: `url('${patacon1.src}')` }}
           className="h-full md:h-[792px] w-full md:w-2/5 text-tan flex bg-cover bg-center justify-center items-center"
         >
           <div className="w-full h-full flex justify-center items-center py-10 px-5">
