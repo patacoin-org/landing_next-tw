@@ -6,6 +6,13 @@ import Image from "next/image";
 import { ButtonWhite } from "./standards/button";
 
 function Hero() {
+  const openInNewTab = () => {
+    window.open(
+      "https://app.uniswap.org/#/swap",
+      "_blank",
+      "noopener,noreferrer"
+    );
+  };
   return (
     <div
       id="start-launch"
@@ -35,7 +42,7 @@ function Hero() {
             <p className="text-4xl text-center font-medium pb-10">
               La cryptocurrency de latam
             </p>
-              <ButtonWhite text="¡Empieza ya!" onClick={() => {}} />
+              <ButtonWhite text="¡Empieza ya!" onClick={() => openInNewTab()} />
           </div>
         </motion.div>
       </div>

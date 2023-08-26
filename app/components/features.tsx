@@ -39,6 +39,13 @@ function FeatureCard(props: FeatureCardProps) {
 }
 
 function Features() {
+  const openInNewTab = () => {
+    window.open(
+      "https://app.uniswap.org/#/swap",
+      "_blank",
+      "noopener,noreferrer"
+    );
+  };
   return (
     <>
       <div className="h-screen w-full"></div>
@@ -100,7 +107,10 @@ function Features() {
                   className=" rounded-full "
                 />
               </div>
-              <ButtonWhite text="Buy on Uniswap" onClick={() => {}} />
+              <ButtonWhite
+                text="Comprar en Uniswap (PTC)"
+                onClick={() => openInNewTab()}
+              />
             </motion.div>
           </div>
         </div>
