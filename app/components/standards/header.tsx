@@ -105,7 +105,7 @@ const DesktopSection = () => {
                     width={45}
                     alt="Patacoin"
                 />
-                <div className="text-black text-4xl font-regular px-4 py-1 rounded-md">Patacoin</div>
+                {/* <div className="text-black text-4xl font-regular px-4 py-1 rounded-md">Paracoin</div> */}
             </div>
             <div className="hidden md:flex flex-row justify-center items-center gap-12">
                 <button
@@ -132,7 +132,7 @@ const DesktopSection = () => {
                 >
                     Tokenomics
                 </button>
-                <button 
+                <button
                     onClick={() => {
                         const element = document.getElementById("roadmap");
                         element!.scrollIntoView({ behavior: "smooth", block: "center", inline: "nearest" });
