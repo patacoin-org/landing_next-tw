@@ -92,12 +92,12 @@ function Features() {
               whileInView={"visible"}
               className="h-full md:h-3/4 w-full md:w-3/4 rounded-3xl text-center bg-soft-orange/90 backdrop-blur-xl flex flex-col gap-2 justify-center items-center p-10"
             >
-              <div className="text-xl font-medium">Built on Ethereum</div>
-              <div className="text-4xl font-medium">Buy $Patacoin</div>
+              <div className="text-xl font-medium">Construido con Ethereum</div>
+              <div className="text-4xl font-medium">Compra $Patacoin</div>
               <div className="text-xl font-medium mt-4">
-                Patacoin is supported on popular
+                Patacoin es soportado en las mas populares
                 <br />
-                DeFi wallets like MetaMask
+                DeFi wallets como MetaMask
               </div>
               <div className="h-24 w-24 flex justify-center items-center bg-tan rounded-full mt-5 mb-10">
                 <Image
