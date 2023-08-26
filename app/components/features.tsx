@@ -68,7 +68,7 @@ function Features() {
           <FeatureCard
             icon={<MdLightbulb size={50} />}
             title="2. Configura tu wallet"
-            description="Después de descargarlo, puede configurar su monedero de acuerdo con nuestro"
+            description="Después de descargarlo, puede configurar su monedero"
           />
           <FeatureCard
             icon={<MdPeople size={50} />}

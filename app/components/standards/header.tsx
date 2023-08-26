@@ -52,7 +52,7 @@ const MobileSection = () => {
                                 }}
                                 className="hover:text-orange hover:underline text-md transition-all duration-300 flex flex-row justify-center items-center gap-1"
                             >
-                                Tokenomics
+                                Pokenomics
                             </button>
                             <button
                                 onClick={()=>{
@@ -130,7 +130,7 @@ const DesktopSection = () => {
                         element!.scrollIntoView({ behavior: "smooth", block: "center", inline: "nearest" });
                     }} className="hover:text-orange hover:underline text-md transition-all duration-300"
                 >
-                    Tokenomics
+                    Pokenomics
                 </button>
                 <button 
                     onClick={() => {
