@@ -26,7 +26,7 @@ const MobileSection = () => {
                             </button>
                             <button
                                 onClick={() => {
-                                    const element = document.getElementById("start");
+                                    const element = document.getElementById("start-launch");
                                     element!.scrollIntoView({ behavior: "smooth", block: "center", inline: "nearest" });
                                     setheaderOpen(false);
                                 }}
@@ -110,7 +110,7 @@ const DesktopSection = () => {
             <div className="hidden md:flex flex-row justify-center items-center gap-12">
                 <button
                     onClick={() => {
-                        const element = document.getElementById("start");
+                        const element = document.getElementById("start-launch");
                         element!.scrollIntoView({ behavior: "smooth", block: "center", inline: "nearest" });
                     }} className="hover:text-orange hover:underline text-md transition-all duration-300"
                 >

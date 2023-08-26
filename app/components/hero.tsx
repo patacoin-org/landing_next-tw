@@ -7,8 +7,8 @@ import Image from "next/image";
 function Hero() {
   return (
     <div
-      id="background-pataconio"
-      className="fixed z-0 h-screen w-full flex flex-col justify-end items-end overflow-y-hidden"
+      id="start-launch"
+      className="background-pataconio fixed z-0 h-screen w-full flex flex-col justify-end items-end overflow-y-hidden"
     >
       <motion.div
         initial={{ opacity: 0 }}
@@ -24,9 +24,16 @@ function Hero() {
           transition={{ duration: 1, delay: 0.5 }}
           className="bg-white w-3/4 md:w-3/4 flex-col p-10 rounded-lg flex justify-around items-center relative z-10 tracking-tighter text-2xl md:text-74xl"
         >
-          <Image src={PataCoinImg} width={250} alt="Patacoin" className="pb-10" />
-          <div className="flex flex-col">
-            <p className="text-4xl font-medium pb-10">La cryptocurrency de latam</p>
+          <Image
+            src={PataCoinImg}
+            width={250}
+            alt="Patacoin"
+            className="pb-10"
+          />
+          <div className="flex justify-center flex-col">
+            <p className="text-4xl text-center font-medium pb-10">
+              La cryptocurrency de latam
+            </p>
             <button
               type="button"
               className="py-2.5 px-5 mr-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"
