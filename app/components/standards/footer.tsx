@@ -25,8 +25,6 @@ function Footer() {
                     <div className="flex flex-col justify-start items-start gap-3">
                         <div className="text-3xl font-bold">Socials</div>
                         <Link className="text-xl font-regular" href="https://twitter.com/Pata_coin">Twitter</Link>
-                        <div className="text-xl font-regular">Telegram</div>
-                        <div className="text-xl font-regular">Discord</div>
                     </div>
 
                 </div>

@@ -4,8 +4,16 @@ import { motion } from "framer-motion";
 import PataCoinImg from "@assets/patacoin-img.webp";
 import Image from "next/image";
 import Patacon1 from "@assets/patacon.jpeg"
+import { ButtonWhite } from "./standards/button";
 
 function Hero() {
+  const openInNewTab = () => {
+    window.open(
+      "https://app.uniswap.org/#/swap",
+      "_blank",
+      "noopener,noreferrer"
+    );
+  };
   return (
     <div
       id="start-launch"

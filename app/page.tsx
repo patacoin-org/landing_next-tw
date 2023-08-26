@@ -21,8 +21,8 @@ export default function Home() {
         <ReadyToBuy/>
         <NextSteps/>
         <ASimpleMission/>
-        <Roadmap/>
-        <DrivenByTheCommunity/>
+        {/* <Roadmap/> */}
+       {/*  <DrivenByTheCommunity/> */}
       
     </div>
   )

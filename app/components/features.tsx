@@ -39,6 +39,13 @@ function FeatureCard(props: FeatureCardProps) {
 }
 
 function Features() {
+  const openInNewTab = () => {
+    window.open(
+      "https://app.uniswap.org/#/swap",
+      "_blank",
+      "noopener,noreferrer"
+    );
+  };
   return (
     <>
       <div className="h-screen w-full"></div>
@@ -61,7 +68,7 @@ function Features() {
           <FeatureCard
             icon={<MdLightbulb size={50} />}
             title="2. Configura tu wallet"
-            description="Después de descargarlo, puede configurar su monedero de acuerdo con nuestro"
+            description="Después de descargarlo, puede configurar su monedero"
           />
           <FeatureCard
             icon={<MdPeople size={50} />}
@@ -85,12 +92,12 @@ function Features() {
               whileInView={"visible"}
               className="h-full md:h-3/4 w-full md:w-3/4 rounded-3xl text-center bg-soft-orange/90 backdrop-blur-xl flex flex-col gap-2 justify-center items-center p-10"
             >
-              <div className="text-xl font-medium">Built on Ethereum</div>
-              <div className="text-4xl font-medium">Buy $Patacoin</div>
+              <div className="text-xl font-medium">Construido con Ethereum</div>
+              <div className="text-4xl font-medium">Compra $Patacoin</div>
               <div className="text-xl font-medium mt-4">
-                Patacoin is supported on popular
+                Patacoin es soportado en las mas populares
                 <br />
-                DeFi wallets like MetaMask
+                DeFi wallets como MetaMask
               </div>
               <div className="h-24 w-24 flex justify-center items-center bg-tan rounded-full mt-5 mb-10">
                 <Image
@@ -100,7 +107,10 @@ function Features() {
                   className=" rounded-full "
                 />
               </div>
-              <ButtonWhite text="Buy on Uniswap" onClick={() => {}} />
+              <ButtonWhite
+                text="Comprar en Uniswap (PTC)"
+                onClick={() => openInNewTab()}
+              />
             </motion.div>
           </div>
         </div>
