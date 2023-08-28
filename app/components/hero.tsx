@@ -9,7 +9,7 @@ import { ButtonWhite } from "./standards/button";
 function Hero() {
   const openInNewTab = () => {
     window.open(
-      "https://app.uniswap.org/#/swap",
+      "https://app.uniswap.org/#/swap?exactField=input&inputCurrency=ETH&outputCurrency=0xefd4e828e8ea886b3d21c09e549690ed66e30b35",
       "_blank",
       "noopener,noreferrer"
     );
@@ -35,18 +35,18 @@ function Hero() {
         >
           <Image
             src={Patacon1}
-            alt="Patacoin"
+            alt="PataCoin"
             className="pb-10 pt-20"
           />
           <div className="flex justify-center flex-col">
             <p className="text-4xl text-center font-medium pb-10">
-              ¡El Crujiente Token que llegó para revolucionar Latinoamérica!
+              ¡El crujiente token que llegó para revolucionar Latinoamérica!
             </p>
             <button
                 onClick={() => {
                     const element = document.getElementById("how-buy");
                     element!.scrollIntoView({ behavior: "smooth", block: "center", inline: "nearest" });
-                }} className="py-2.5 px-5 mr-2 mb-2 text-sm font-medium text-orange-900 bg-white rounded-lg border border-orange-200 hover:bg-white-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"
+                }} className="py-2.5 px-5 mr-2 mb-2 text-sm font-medium text-orange bg-white rounded-lg border border-orange hover:bg-white-100 hover:bg-orange hover:text-white focus:z-10 focus:outline-none focus:ring-1 focus:ring-orange focus:border-orange transition-all duration-300"
             >
                 ¡Empieza ya!
             </button>

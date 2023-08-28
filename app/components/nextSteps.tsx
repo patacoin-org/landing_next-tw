@@ -50,10 +50,10 @@ function NextSteps() {
                     Nuestra Visión
                 </motion.div>
                 <div className="flex flex-col justify-start items-start mt-6 md:mt-10 pr-5 md:pr-10 gap-3 md:gap-5">
-                    <Step index={0} step="Lanzamiento de Patacoin: Emitir 100.000.000 tokens y establecer alianzas con exchanges latinoamericanos." />
+                    <Step index={0} step="Lanzamiento de PataCoin: Emitir 100.000.000 tokens y establecer alianzas con exchanges latinoamericanos." />
                     <Step index={1} step="Educación Blockchain: Organizar webinars y talleres en universidades y comunidades de LATAM." />
-                    <Step index={2} step="Adopción Comercial: Desarrollar partnerships con negocios locales para aceptar Patacoin como método de pago." />
-                    <Step index={3} step="Inversión Social: Crear un fondo comunitario en Patacoin para financiar proyectos tecnológicos en Latinoamérica." />
+                    <Step index={2} step="Adopción Comercial: Desarrollar partnerships con negocios locales para aceptar PataCoin como método de pago." />
+                    <Step index={3} step="Inversión Social: Crear un fondo comunitario en PataCoin para financiar proyectos tecnológicos en Latinoamérica." />
                 </div>
 
             </div>

@@ -2,17 +2,11 @@
 
 import { ReactElement } from "react";
 import patacon2 from "../images/24.jpg.webp";
-import patacon1 from '@assets/patacon.jpeg'
-import {
-  MdDesignServices,
-  MdLightbulb,
-  MdPeople,
-  MdSearch,
-} from "react-icons/md";
+import { MdDesignServices, MdLightbulb, MdPeople } from "react-icons/md";
 import { ButtonWhite } from "./standards/button";
 import { motion } from "framer-motion";
 import Image from "next/image";
-import PataCoinImg from "@assets/logo.png";
+import PataCoinImg from "@assets/logos/logo.png";
 
 interface FeatureCardProps {
   title: string;
@@ -42,7 +36,7 @@ function FeatureCard(props: FeatureCardProps) {
 function Features() {
   const openInNewTab = () => {
     window.open(
-      "https://app.uniswap.org/#/swap",
+      "https://app.uniswap.org/#/swap?exactField=input&inputCurrency=ETH&outputCurrency=0xefd4e828e8ea886b3d21c09e549690ed66e30b35",
       "_blank",
       "noopener,noreferrer"
     );
@@ -64,17 +58,17 @@ function Features() {
           <FeatureCard
             icon={<MdDesignServices size={50} />}
             title="1. Escoge tu wallet"
-            description="Un monedero es necesario para las personas que deseen utilizar, comerciar o mantener Dogecoin. Puedes elegir un monedero"
+            description="Necesario para las personas que deseen utilizar, comerciar o mantener PTC"
           />
           <FeatureCard
             icon={<MdLightbulb size={50} />}
             title="2. Configura tu wallet"
-            description="Después de descargarlo, puede configurar su monedero"
+            description="Descarga, instala y configurara"
           />
           <FeatureCard
             icon={<MdPeople size={50} />}
-            title="3. Consigue unos Patacoins"
-            description="Consigue patacoin para tu almuerzo"
+            title="3. Consigue unos PataCoins"
+            description="Consigue PTC para tu almuerzo"
           />
         </motion.div>
 
@@ -105,7 +99,7 @@ function Features() {
                 <Image
                   src={PataCoinImg}
                   width={70}
-                  alt="Patacoin"
+                  alt="PataCoin"
                   className=" rounded-full "
                 />
               </div>
@@ -114,10 +108,13 @@ function Features() {
                 onClick={() => openInNewTab()}
               />
               <br></br>
-              <b><h1 style={{ fontSize: 15 }}>Smart Contract</h1></b>
-              <h1 style={{ fontSize: 13 }}>0xefd4e828e8ea886b3d21c09e549690ed66e30b35</h1>
+              <b>
+                <h1 style={{ fontSize: 15 }}>Smart Contract</h1>
+              </b>
+              <h1 style={{ fontSize: 13 }}>
+                0xefd4e828e8ea886b3d21c09e549690ed66e30b35
+              </h1>
             </motion.div>
-
           </div>
         </div>
       </div>

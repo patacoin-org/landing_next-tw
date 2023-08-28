@@ -6,7 +6,7 @@ function Footer() {
             <div className="flex flex-col gap-10 md:flex-row justify-between w-full items-start p-24">
 
                 <div className="text-tan text-4xl font-regular px-4 py-1 rounded-md">
-                    Patacoin
+                    PataCoin
                 </div>
 
                 <div className="flex flex-col md:flex-row justify-between items-start gap-10 md:gap-20">

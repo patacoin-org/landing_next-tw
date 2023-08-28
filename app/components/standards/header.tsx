@@ -4,7 +4,7 @@ import { MdClose } from "react-icons/md"
 import { GiHamburgerMenu } from "react-icons/gi";
 import { useEffect, useState } from "react";
 import Image from "next/image";
-import PataCoinImg from '@assets/logo.png';
+import PataCoinImg from '@assets/logos/logo.png';
 
 const MobileSection = () => {
     const [headerOpen, setheaderOpen] = useState(false);
@@ -79,7 +79,7 @@ const MobileSection = () => {
                             <Image
                                 src={PataCoinImg}
                                 width={45}
-                                alt="Patacoin"
+                                alt="PataCoin"
                             />
                             <button onClick={() => { setheaderOpen(!headerOpen) }}>
                                 <GiHamburgerMenu size={30} />
@@ -103,7 +103,7 @@ const DesktopSection = () => {
                 <Image
                     src={PataCoinImg}
                     width={80}
-                    alt="Patacoin"
+                    alt="PataCoin"
                 />
                 {/* <div className="text-black text-4xl font-regular px-4 py-1 rounded-md">Paracoin</div> */}
             </div>
@@ -130,7 +130,7 @@ const DesktopSection = () => {
                         element!.scrollIntoView({ behavior: "smooth", block: "center", inline: "nearest" });
                     }} className="hover:text-orange hover:underline text-md transition-all duration-300"
                 >
-                    Pata-Nomics
+                    Pata-nomics
                 </button>
                 <button
                     onClick={() => {
