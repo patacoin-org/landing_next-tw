@@ -6,3 +6,83 @@
     background-image: url('./images/patacones-background.webp');
     background-size: cover;
 }
+
+body {
+    text-align: center;
+    margin: 50px;
+  }
+  .circle {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    --tw-text-opacity: 1;
+    width: 160px;
+    height: 43px;
+    color: #fff;
+    border-color: rgb(255 118 6 );
+    background-color: rgb(255 118 6 );
+    border-radius: 0.5rem;
+    cursor: pointer;
+    padding-top: 0.625rem/* 10px */;
+    padding-bottom: 0.625rem/* 10px */;
+    padding-left: 1.25rem/* 20px */;
+    padding-right: 1.25rem/* 20px */;
+    font-size: 0.975rem/* 14px */;
+    line-height: 1.25rem/* 20px */;
+    font-weight: 500;
+  }
+  .wave-1,
+  .wave-2,
+  .wave-3 {
+    position: absolute;
+    display: inline-block;
+    vertical-align: top;
+    top: 50%;
+    left: 50%;
+    width: 160px;
+    height: 43px;
+    transform: translate(-50%, -50%) scale(1);
+    border: 2px solid rgb(255 118 6 );
+    border-radius: 0.5rem;
+    transform-origin: 0 0;
+    animation: appear .4s forwards;
+  }
+  
+  .wave-2 {
+    width: 160px;
+    height: 43px;
+    opacity: .22;
+  }
+  .circle:hover .wave-1,
+  .circle:hover .wave-2 {
+    animation: expand .4s forwards;
+  }
+  .circle:hover .wave-1 {
+      animation-delay: .1s;
+  }
+  
+  @keyframes expand {
+    0% {
+     transform: translate(-50%, -50%) scale(1);
+    }
+    
+      80% {
+     opacity: 0; 
+    }
+    100% {
+      transform: translate(-75%, -75%) scale(1.5);
+      opacity: 0;
+    }
+  }
+  
+  @keyframes appear {
+    0% {
+     transform: translate(-75%, -75%) scale(1.5);
+      opacity: 0;
+    }
+  
+    100% {
+      transform: translate(-50%, -50%) scale(1);
+  /*     opacity: 1; */
+    }
+  }

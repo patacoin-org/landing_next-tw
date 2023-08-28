@@ -5,6 +5,7 @@ import PataCoinImg from "@assets/patacoin-img.webp";
 import Image from "next/image";
 import Patacon1 from "@assets/patacon.jpeg"
 import { ButtonWhite } from "./standards/button";
+import StartButton from "./StartButton";
 
 function Hero() {
   const openInNewTab = () => {
@@ -38,19 +39,12 @@ function Hero() {
             alt="PataCoin"
             className="pb-10 pt-20"
           />
-          <div className="flex justify-center flex-col">
+          <div className="flex justify-center items-center flex-col">
             <p className="text-4xl text-center font-medium pb-10">
               ¡El crujiente token que llegó para revolucionar Latinoamérica!
             </p>
-            <button
-                onClick={() => {
-                    const element = document.getElementById("how-buy");
-                    element!.scrollIntoView({ behavior: "smooth", block: "center", inline: "nearest" });
-                }} className="py-2.5 px-5 mr-2 mb-2 text-sm font-medium text-orange bg-white rounded-lg border border-orange hover:bg-white-100 hover:bg-orange hover:text-white focus:z-10 focus:outline-none focus:ring-1 focus:ring-orange focus:border-orange transition-all duration-300"
-            >
-                ¡Empieza ya!
-            </button>
-          </div>
+            <StartButton />
+          </div> 
         </motion.div>
       </div>
     </div>
