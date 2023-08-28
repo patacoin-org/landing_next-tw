@@ -94,9 +94,9 @@ function Features() {
               className="h-full md:h-3/4 w-full md:w-3/4 rounded-3xl text-center bg-soft-orange/90 backdrop-blur-xl flex flex-col gap-2 justify-center items-center p-10"
             >
               <div className="text-xl font-medium">Construido con Ethereum</div>
-              <div className="text-4xl font-medium">Compra $PataCoin</div>
+              <div className="text-4xl font-medium">Compra $PTC</div>
               <div className="text-xl font-medium mt-4">
-                PataCoin es soportado en las mas populares
+                PataCoin es soportado en las plataformas más populares
                 <br />
                 DeFi wallets como MetaMask
               </div>
@@ -113,11 +113,11 @@ function Features() {
                 text="Comprar en Uniswap (PTC)"
                 onClick={() => openInNewTab()}
               />
-              <br></br>    
-              <b><h1 style={{ fontSize: 15 }}>Start Contract</h1></b>
-              <h1 style={{ fontSize: 13 }}>0xefd4e828e8ea886b3d21c09e549690ed66e30b35</h1>                     
+              <br></br>
+              <b><h1 style={{ fontSize: 15 }}>Smart Contract</h1></b>
+              <h1 style={{ fontSize: 13 }}>0xefd4e828e8ea886b3d21c09e549690ed66e30b35</h1>
             </motion.div>
-            
+
           </div>
         </div>
       </div>
